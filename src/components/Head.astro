@@ -1,0 +1,51 @@
+---
+import GTag from "./GTag.astro"
+import GoatCounter from "./GoatCounter.astro";
+const { 
+    title = 'Metro UI Components Library', 
+    description = "Impressive components library for creating an expressive reactive web sites from prototyping to production", 
+    permalink = "https://metroui.org.ua", 
+    image = "/images/metroui-social-card.jpg", 
+    base 
+} = Astro.props
+---
+{base && <base href={base}>}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<link rel="icon" type="image/ico" sizes="32x32" href="/logo-light.svg">
+<link rel="stylesheet" href="/metro.css">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge"  />
+<meta name="author" content="Serhii Pimenov"/>
+<meta name="author:site" content="https://pimenov.com.ua"/>
+<meta name="author:email" content="serhii@pimenov.com.ua"/>
+<meta name="title" content={title}/>
+<meta name="description" content={description}/>
+
+<!-- Open Graph Tags (Facebook) -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content={title} />
+<meta property="og:url" content={permalink} />
+<meta property="og:description" content={description} />
+<meta property="og:image" content={image} />
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:title" content={title} />
+<meta property="twitter:url" content={permalink} />
+<meta property="twitter:description" content={description} />
+<meta property="twitter:image" content={image} />
+
+
+<style is:global>
+    @import "../styles/common.css";
+</style>
+
+<GTag/>
+<GoatCounter/>

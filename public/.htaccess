@@ -1,0 +1,9 @@
+RewriteEngine On
+
+#Redirect 301 /download.html https://github.com/olton/Metro-UI-CSS
+#Redirect 301 /examples.html https://metroui.org.ua
+#Redirect 301 /icons.html https://metroui.org.ua
+#Redirect 301 /index-old.html https://metroui.org.ua
+
+RewriteCond %{HTTPS} !on
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}

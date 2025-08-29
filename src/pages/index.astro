@@ -1,34 +1,12 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Hero from '../components/Hero.astro';
+import MainFeatures from '../components/MainFeatures.astro';
+import Structure from "../components/Structure.astro";
 ---
 
 <Layout title="Metro UI - Expressive library for impressive coding">
-    <div class="container">
-        <div class="hero bg-transparent d-flex flex-column flex-center">
-            <div class="pos-relative gradient gradient-crimson-depth border border-radius-half p-4 gradient-border animated-border-red" style="width: 200px; height: 200px;">
-                <img src="/logo-light.svg" alt="Metro UI Logo" style=" filter: drop-shadow(0 0 0.75rem #ff4e4e);"/>
-            </div>
-            <div class="display3 text-center">Build fast, responsive sites<br/> with <span class="gradient-text gradient-radial-red">Metro UI</span></div>
-            <div class="text-leader text-center mt-4 mb-10">Metro UI is a free, open source, html-first toolkit for developing web sites with HTML, CSS, and JS. With Metro UI, you can easily and quickly make a reactive site from prototype to production.</div>
-            <div class="d-flex flex-row flex-center gap-4">
-                <button class="alert pill-button" style="width: 150px;">
-                    <span class="mif-rocket icon"></span>
-                    <span class="caption">Getting Started</span>
-                </button>
-                <button class="bg-default pill-button" style="width: 150px;">
-                    <span class="mif-robot icon"></span>
-                    <span class="caption">AI Assistant</span>
-                </button>
-            </div>
-            <div class="mt-10">
-                <ul class="inline-list block-center reduce-2 mt-10 mb-10">
-                    <li><a class="button mini link" href="https://github.com/olton/metroui/fork"><span class="mif-github mr-1"></span> Fork</a></li>
-                    <li>/</li>
-                    <li><a class="button mini link" href="https://github.com/olton/metroui/archive/refs/heads/master.zip"><span class="mif-download mr-1"></span> Download</a></li>
-                    <li>/</li>
-                    <li><a class="button mini link" href="https://github.com/olton/metroui/discussions"><span class="mif-chat mr-1"></span> Discuss</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
+    <Hero/>
+    <MainFeatures/>
+    <Structure/>
 </Layout>

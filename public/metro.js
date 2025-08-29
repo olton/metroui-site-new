@@ -8,7 +8,7 @@
  ╚═╝     ╚═╝╚══════╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝      ╚═════╝ ╚═╝                                                             
 
  * Metro UI v5.1.18 Components Library  (https://metroui.org.ua)
- * Build: 28.08.2025, 19:11:02
+ * Build: 29.08.2025, 10:45:22
  * Copyright 2012-2025 by Serhii Pimenov
  * Licensed under MIT
  */
@@ -11309,7 +11309,7 @@
   (($7) => {
     "use strict";
     globalThis["__version__"] = "5.1.18";
-    globalThis["__build_time__"] = "28.08.2025, 19:11:02";
+    globalThis["__build_time__"] = "29.08.2025, 10:45:22";
     const meta_init = $7.meta("metro:init").attr("content");
     const meta_cloak = $7.meta("metro:cloak").attr("content");
     const meta_cloak_duration = $7.meta("metro:cloak_duration").attr("content");
@@ -11656,7 +11656,7 @@
     const normalizeComponentName2 = (name2) => typeof name2 !== "string" ? void 0 : name2.replace(/-/g, "").toLowerCase();
     const Metro2 = {
       version: "5.1.18",
-      build_time: "28.08.2025, 19:11:02",
+      build_time: "29.08.2025, 10:45:22",
       buildNumber: 0,
       isTouchable: isTouch3,
       fullScreenEnabled: document.fullscreenEnabled,

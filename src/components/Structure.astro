@@ -1,0 +1,131 @@
+---
+import {Image} from 'astro:assets';
+import CssImage from "../assets/css.svg";
+import JSImage from "../assets/javascript.svg";
+import LibImage from "../assets/module.svg";
+import ComponentsImage from "../assets/components.svg";
+import IconsImage from "../assets/icons.svg";
+---
+<div class="cutter dash mt-20" style="--cutter-line-color: darkred;"></div>
+<div class="container mt-20">
+    <div class="row">
+        <div class="cell-md-6 pr-10-md">
+            <div class="display4">Struct Library</div>
+            <div class="text-leader2 mt-2">
+                Metro UI offers the developer: common styles and useful javascript functions, 9 specialized modules, and 100+ ready to use components. 
+            </div>
+            <div class="text-leader2 mt-2">
+                Metro UI contains the Dom module for interacting with the DOM, modules for working with dates, strings, color and more... 
+            </div>
+            <div class="text-leader2 mt-2">
+                All parts are written by the same author, so Metro UI has <span class="text-weight-9 fg-red">zero-dependency</span>.
+            </div>
+            <div class="mt-6">
+                <a href="https://github.com/olton/metroui" class="button pill-button large">
+                    <span class="mif-github icon"></span>
+                    <span class="caption">Download Metro UI</span>
+                </a>
+            </div>
+        </div>
+        <div class="cell-md-6">
+            <div class="row">
+                <div class="cell-fs-6">
+                    <div class="lib-part-box">
+                        <div class="lib-part-number">1</div>
+                        <Image src={CssImage} alt="Common CSS"/>
+                        <div class="lib-part-name">
+                            Common CSS
+                        </div>
+                        <div class="text-center reduce-1 mt-4 d-none">
+                            Module contain styles for: display, flex, border, cursor, floating, sizing and positioning, typography, and base themes colors.
+                        </div>
+                    </div>
+                </div>
+                <div class="cell-fs-6">
+                    <div class="lib-part-box">
+                        <div class="lib-part-number">2</div>
+                        <Image src={JSImage} alt="Common JS"/>
+                        <div class="lib-part-name">
+                            Common JS
+                        </div>
+                        <div class="text-center reduce-1 mt-4 d-none">
+                            Module contain a lot of usefulness functions, such as an extended list of type and condition checking functions, css functions, and more other.
+                        </div>
+                    </div>
+                </div>
+                <div class="cell-fs-6">
+                    <div class="lib-part-box">
+                        <div class="lib-part-number">3</div>
+                        <Image src={LibImage} alt="Libraries"/>
+                        <div class="lib-part-name">
+                            Special Libs
+                        </div>
+                        <div class="text-center reduce-1 mt-4 d-none">
+                            Module contain a lot of classes and functions to work with: date and time, strings, colors, DOM, animation routines, router, data model, and user input (validation).
+                        </div>
+                    </div>
+                </div>
+                <div class="cell-fs-6">
+                    <div class="lib-part-box">
+                        <div class="lib-part-number">4</div>
+                        <Image src={ComponentsImage} alt="Components"/>
+                        <div class="lib-part-name">
+                            Web Components
+                        </div>
+                        <div class="text-center reduce-1 mt-4 d-none">
+                            Module contain more than 150 ready to use web components for almost all cases: inputs, cards, menus, and others.
+                        </div>
+                    </div>
+                </div>
+                <div class="cell-fs-6">
+                    <div class="lib-part-box">
+                        <div class="lib-part-number">5</div>
+                        <Image src={IconsImage} alt="Icons"/>
+                        <div class="lib-part-name">
+                            Icons
+                        </div>
+                        <div class="text-center reduce-1 mt-4 d-none">
+                            Metro Icons Font includes 800+ useful icons for your application.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .lib-part-box {
+        border: 1px dashed var(--border-color);
+        border-radius: 10px;
+        padding: 16px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        
+        .lib-part-number {
+            font-size: 24px;
+            font-weight: 900;
+            margin-bottom: 8px;
+            position: absolute;
+            top: 10px;
+            right: 15px;
+        }
+        
+        img {
+            height: 128px;
+            aspect-ratio: 1 / 1;
+            object-fit: contain;
+        }
+        
+        .lib-part-name {
+            margin-top: 16px;
+            font-size: 18px;
+            font-weight: 600;
+            text-align: center;
+        }
+    }
+</style>

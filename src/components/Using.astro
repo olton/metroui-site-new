@@ -1,0 +1,47 @@
+---
+import {Image} from "astro:assets";
+import CdnImage from "../assets/cdn.svg";
+import NpmImage from "../assets/npm.svg";
+import DownloadImage from "../assets/download.svg";
+---
+<div class="container mt-20">
+    <div class="row">
+        <div class="cell-md-6 pr-10-md">
+            <div class="display4 mt-0">Any Started</div>
+            <div class="text-leader2 mt-2">
+                Jump right into building with Metro UI — use the CDN, install it via package manager, or download the source code.
+            </div>
+        </div>
+        <div class="cell-md-6">
+            <div class="row">
+                <div class="cell-fs-6 cell-ld-4">
+                    <div class="lib-part-box">
+                        <Image src={CdnImage} alt="CDN Image" style="filter: drop-shadow(0 0 0.75rem #ff4e4e);"/>
+                        <div class="lib-part-name">
+                            CDN
+                        </div>
+                    </div>
+                </div>
+                <div class="cell-fs-6  cell-ld-4">
+                    <div class="lib-part-box">
+                        <Image src={NpmImage} alt="NPM Image" style="filter: drop-shadow(0 0 0.75rem #ff4e4e);"/>
+                        <div class="lib-part-name">
+                            NPM Registry
+                        </div>
+                    </div>
+                </div>
+                <div class="cell-fs-6 cell-ld-4">
+                    <div class="lib-part-box">
+                        <Image src={DownloadImage} alt="Download Image" style="filter: drop-shadow(0 0 0.75rem #ff4e4e);"/>
+                        <div class="lib-part-name">
+                            Download from GitHub
+                        </div>
+                    </div>
+                </div>
+                <div class="cell-fs-6 cell-ld-4 d-flex flex-center">
+                    <a href="https://v5.metroui.org.ua/getting-started/download/" class="button pill-button alert">Read More <span class="mif-arrow-right icon"></span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

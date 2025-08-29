@@ -5,6 +5,7 @@ import JSImage from "../assets/javascript.svg";
 import LibImage from "../assets/module.svg";
 import ComponentsImage from "../assets/components.svg";
 import IconsImage from "../assets/icons.svg";
+import StyleImage from "../assets/ideas.svg";
 ---
 <div class="container mt-20">
     <div class="row">
@@ -31,7 +32,7 @@ import IconsImage from "../assets/icons.svg";
                 <div class="cell-fs-6">
                     <div class="lib-part-box">
                         <div class="lib-part-number">1</div>
-                        <Image src={CssImage} alt="Common CSS"/>
+                        <Image src={CssImage} alt="Common CSS" style="filter: drop-shadow(0 0 0.75rem #ff4e4e);"/>
                         <div class="lib-part-name">
                             Common CSS
                         </div>
@@ -43,7 +44,7 @@ import IconsImage from "../assets/icons.svg";
                 <div class="cell-fs-6">
                     <div class="lib-part-box">
                         <div class="lib-part-number">2</div>
-                        <Image src={JSImage} alt="Common JS"/>
+                        <Image src={JSImage} alt="Common JS" style="filter: drop-shadow(0 0 0.75rem #ff4e4e);"/>
                         <div class="lib-part-name">
                             Common JS
                         </div>
@@ -55,7 +56,7 @@ import IconsImage from "../assets/icons.svg";
                 <div class="cell-fs-6">
                     <div class="lib-part-box">
                         <div class="lib-part-number">3</div>
-                        <Image src={LibImage} alt="Libraries"/>
+                        <Image src={LibImage} alt="Libraries" style="filter: drop-shadow(0 0 0.75rem #ff4e4e);"/>
                         <div class="lib-part-name">
                             Special Libs
                         </div>
@@ -67,7 +68,7 @@ import IconsImage from "../assets/icons.svg";
                 <div class="cell-fs-6">
                     <div class="lib-part-box">
                         <div class="lib-part-number">4</div>
-                        <Image src={ComponentsImage} alt="Components"/>
+                        <Image src={ComponentsImage} alt="Components" style="filter: drop-shadow(0 0 0.75rem #ff4e4e);"/>
                         <div class="lib-part-name">
                             Web Components
                         </div>
@@ -79,7 +80,7 @@ import IconsImage from "../assets/icons.svg";
                 <div class="cell-fs-6">
                     <div class="lib-part-box">
                         <div class="lib-part-number">5</div>
-                        <Image src={IconsImage} alt="Icons"/>
+                        <Image src={IconsImage} alt="Icons" style="filter: drop-shadow(0 0 0.75rem #ff4e4e);"/>
                         <div class="lib-part-name">
                             Icons
                         </div>
@@ -88,43 +89,19 @@ import IconsImage from "../assets/icons.svg";
                         </div>
                     </div>
                 </div>
+                <div class="cell-fs-6">
+                    <div class="lib-part-box">
+                        <div class="lib-part-number">6</div>
+                        <Image src={StyleImage} alt="Ideas" style="filter: drop-shadow(0 0 0.75rem #ff4e4e);"/>
+                        <div class="lib-part-name">
+                            New Ideas...
+                        </div>
+                        <div class="text-center reduce-1 mt-4 d-none">
+                            We have many new ideas...
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
-
-<style>
-    .lib-part-box {
-        border: 1px dashed var(--border-color);
-        border-radius: 10px;
-        padding: 16px;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        
-        .lib-part-number {
-            font-size: 24px;
-            font-weight: 900;
-            margin-bottom: 8px;
-            position: absolute;
-            top: 10px;
-            right: 15px;
-        }
-        
-        img {
-            height: 128px;
-            aspect-ratio: 1 / 1;
-            object-fit: contain;
-        }
-        
-        .lib-part-name {
-            margin-top: 16px;
-            font-size: 18px;
-            font-weight: 600;
-            text-align: center;
-        }
-    }
-</style>

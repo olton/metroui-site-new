@@ -28648,6 +28648,18 @@ hr.fat {
 .bd-transparent {
   border-color: transparent !important;
 }
+.bd-light-gray {
+  border-color: hsl(0, 0%, 95%) !important;
+}
+.bd-minor-gray {
+  border-color: hsl(0, 0%, 87%) !important;
+}
+.bd-sat-gray {
+  border-color: hsl(0, 0%, 65%) !important;
+}
+.bd-dark-gray {
+  border-color: hsl(0, 0%, 55%) !important;
+}
 .bd-gray {
   border-color: hsl(0, 0%, 80%) !important;
 }
@@ -28665,6 +28677,18 @@ hr.fat {
 }
 .bd-after-gray::after {
   border-color: hsl(0, 0%, 80%) !important;
+}
+.bd-light-gray-blue {
+  border-color: hsl(210, 26%, 84%) !important;
+}
+.bd-minor-gray-blue {
+  border-color: hsl(210, 26%, 69%) !important;
+}
+.bd-sat-gray-blue {
+  border-color: hsl(210, 26%, 39%) !important;
+}
+.bd-dark-gray-blue {
+  border-color: hsl(210, 26%, 29%) !important;
 }
 .bd-gray-blue {
   border-color: hsl(210, 26%, 54%) !important;
@@ -28684,6 +28708,18 @@ hr.fat {
 .bd-after-gray-blue::after {
   border-color: hsl(210, 26%, 54%) !important;
 }
+.bd-light-gray-mouse {
+  border-color: hsl(199, 15%, 70%) !important;
+}
+.bd-minor-gray-mouse {
+  border-color: hsl(199, 15%, 55%) !important;
+}
+.bd-sat-gray-mouse {
+  border-color: hsl(199, 15%, 25%) !important;
+}
+.bd-dark-gray-mouse {
+  border-color: hsl(199, 15%, 15%) !important;
+}
 .bd-gray-mouse {
   border-color: hsl(199, 15%, 40%) !important;
 }
@@ -28701,6 +28737,18 @@ hr.fat {
 }
 .bd-after-gray-mouse::after {
   border-color: hsl(199, 15%, 40%) !important;
+}
+.bd-light-lime {
+  border-color: hsl(93, 97%, 91%) !important;
+}
+.bd-minor-lime {
+  border-color: hsl(93, 97%, 81%) !important;
+}
+.bd-sat-lime {
+  border-color: hsl(93, 97%, 56%) !important;
+}
+.bd-dark-lime {
+  border-color: hsl(93, 97%, 46%) !important;
 }
 .bd-lime {
   border-color: hsl(93, 97%, 71%) !important;
@@ -28720,6 +28768,18 @@ hr.fat {
 .bd-after-lime::after {
   border-color: hsl(93, 97%, 71%) !important;
 }
+.bd-light-green {
+  border-color: hsl(120, 100%, 80%) !important;
+}
+.bd-minor-green {
+  border-color: hsl(120, 100%, 45%) !important;
+}
+.bd-sat-green {
+  border-color: hsl(120, 100%, 20%) !important;
+}
+.bd-dark-green {
+  border-color: hsl(120, 100%, 10%) !important;
+}
 .bd-green {
   border-color: hsl(120, 100%, 35%) !important;
 }
@@ -28737,6 +28797,18 @@ hr.fat {
 }
 .bd-after-green::after {
   border-color: hsl(120, 100%, 35%) !important;
+}
+.bd-light-emerald {
+  border-color: hsl(140, 52%, 85%) !important;
+}
+.bd-minor-emerald {
+  border-color: hsl(140, 52%, 65%) !important;
+}
+.bd-sat-emerald {
+  border-color: hsl(140, 52%, 40%) !important;
+}
+.bd-dark-emerald {
+  border-color: hsl(140, 52%, 30%) !important;
 }
 .bd-emerald {
   border-color: hsl(140, 52%, 55%) !important;
@@ -28756,6 +28828,18 @@ hr.fat {
 .bd-after-emerald::after {
   border-color: hsl(140, 52%, 55%) !important;
 }
+.bd-light-blue {
+  border-color: hsl(225, 100%, 93%) !important;
+}
+.bd-minor-blue {
+  border-color: hsl(225, 100%, 78%) !important;
+}
+.bd-sat-blue {
+  border-color: hsl(225, 100%, 53%) !important;
+}
+.bd-dark-blue {
+  border-color: hsl(225, 100%, 43%) !important;
+}
 .bd-blue {
   border-color: hsl(225, 100%, 68%) !important;
 }
@@ -28773,6 +28857,18 @@ hr.fat {
 }
 .bd-after-blue::after {
   border-color: hsl(225, 100%, 68%) !important;
+}
+.bd-light-teal {
+  border-color: hsl(180, 77%, 79%) !important;
+}
+.bd-minor-teal {
+  border-color: hsl(180, 77%, 54%) !important;
+}
+.bd-sat-teal {
+  border-color: hsl(180, 77%, 29%) !important;
+}
+.bd-dark-teal {
+  border-color: hsl(180, 77%, 19%) !important;
 }
 .bd-teal {
   border-color: hsl(180, 77%, 44%) !important;
@@ -28792,6 +28888,18 @@ hr.fat {
 .bd-after-teal::after {
   border-color: hsl(180, 77%, 44%) !important;
 }
+.bd-light-cyan {
+  border-color: hsl(221, 100%, 94%) !important;
+}
+.bd-minor-cyan {
+  border-color: hsl(221, 100%, 89%) !important;
+}
+.bd-sat-cyan {
+  border-color: hsl(221, 100%, 64%) !important;
+}
+.bd-dark-cyan {
+  border-color: hsl(221, 100%, 54%) !important;
+}
 .bd-cyan {
   border-color: hsl(221, 100%, 79%) !important;
 }
@@ -28809,6 +28917,18 @@ hr.fat {
 }
 .bd-after-cyan::after {
   border-color: hsl(221, 100%, 79%) !important;
+}
+.bd-light-cobalt {
+  border-color: hsl(215, 100%, 79%) !important;
+}
+.bd-minor-cobalt {
+  border-color: hsl(215, 100%, 49%) !important;
+}
+.bd-sat-cobalt {
+  border-color: hsl(215, 100%, 19%) !important;
+}
+.bd-dark-cobalt {
+  border-color: hsl(215, 100%, 9%) !important;
 }
 .bd-cobalt {
   border-color: hsl(215, 100%, 34%) !important;
@@ -28828,6 +28948,18 @@ hr.fat {
 .bd-after-cobalt::after {
   border-color: hsl(215, 100%, 34%) !important;
 }
+.bd-light-indigo {
+  border-color: hsl(276, 100%, 78%) !important;
+}
+.bd-minor-indigo {
+  border-color: hsl(276, 100%, 48%) !important;
+}
+.bd-sat-indigo {
+  border-color: hsl(276, 100%, 18%) !important;
+}
+.bd-dark-indigo {
+  border-color: hsl(276, 100%, 8%) !important;
+}
 .bd-indigo {
   border-color: hsl(276, 100%, 33%) !important;
 }
@@ -28845,6 +28977,18 @@ hr.fat {
 }
 .bd-after-indigo::after {
   border-color: hsl(276, 100%, 33%) !important;
+}
+.bd-light-almost {
+  border-color: hsl(259, 84%, 85%) !important;
+}
+.bd-minor-almost {
+  border-color: hsl(259, 84%, 70%) !important;
+}
+.bd-sat-almost {
+  border-color: hsl(259, 84%, 40%) !important;
+}
+.bd-dark-almost {
+  border-color: hsl(259, 84%, 30%) !important;
 }
 .bd-almost {
   border-color: hsl(259, 84%, 55%) !important;
@@ -28864,6 +29008,18 @@ hr.fat {
 .bd-after-almost::after {
   border-color: hsl(259, 84%, 55%) !important;
 }
+.bd-light-violet {
+  border-color: hsl(300, 76%, 92%) !important;
+}
+.bd-minor-violet {
+  border-color: hsl(300, 76%, 82%) !important;
+}
+.bd-sat-violet {
+  border-color: hsl(300, 76%, 57%) !important;
+}
+.bd-dark-violet {
+  border-color: hsl(300, 76%, 47%) !important;
+}
 .bd-violet {
   border-color: hsl(300, 76%, 72%) !important;
 }
@@ -28881,6 +29037,18 @@ hr.fat {
 }
 .bd-after-violet::after {
   border-color: hsl(300, 76%, 72%) !important;
+}
+.bd-light-pink {
+  border-color: hsl(350, 100%, 98%) !important;
+}
+.bd-minor-pink {
+  border-color: hsl(350, 100%, 93%) !important;
+}
+.bd-sat-pink {
+  border-color: hsl(350, 100%, 73%) !important;
+}
+.bd-dark-pink {
+  border-color: hsl(350, 100%, 63%) !important;
 }
 .bd-pink {
   border-color: hsl(350, 100%, 88%) !important;
@@ -28900,6 +29068,18 @@ hr.fat {
 .bd-after-pink::after {
   border-color: hsl(350, 100%, 88%) !important;
 }
+.bd-light-magenta {
+  border-color: hsl(300, 100%, 90%) !important;
+}
+.bd-minor-magenta {
+  border-color: hsl(300, 100%, 75%) !important;
+}
+.bd-sat-magenta {
+  border-color: hsl(300, 100%, 35%) !important;
+}
+.bd-dark-magenta {
+  border-color: hsl(300, 100%, 25%) !important;
+}
 .bd-magenta {
   border-color: hsl(300, 100%, 50%) !important;
 }
@@ -28917,6 +29097,18 @@ hr.fat {
 }
 .bd-after-magenta::after {
   border-color: hsl(300, 100%, 50%) !important;
+}
+.bd-light-crimson {
+  border-color: hsl(348, 88%, 91%) !important;
+}
+.bd-minor-crimson {
+  border-color: hsl(348, 88%, 66%) !important;
+}
+.bd-sat-crimson {
+  border-color: hsl(348, 88%, 31%) !important;
+}
+.bd-dark-crimson {
+  border-color: hsl(348, 88%, 21%) !important;
 }
 .bd-crimson {
   border-color: hsl(348, 88%, 46%) !important;
@@ -28936,6 +29128,18 @@ hr.fat {
 .bd-after-crimson::after {
   border-color: hsl(348, 88%, 46%) !important;
 }
+.bd-light-red {
+  border-color: hsl(0, 100%, 85%) !important;
+}
+.bd-minor-red {
+  border-color: hsl(0, 100%, 70%) !important;
+}
+.bd-sat-red {
+  border-color: hsl(0, 100%, 35%) !important;
+}
+.bd-dark-red {
+  border-color: hsl(0, 100%, 25%) !important;
+}
 .bd-red {
   border-color: hsl(0, 100%, 50%) !important;
 }
@@ -28953,6 +29157,18 @@ hr.fat {
 }
 .bd-after-red::after {
   border-color: hsl(0, 100%, 50%) !important;
+}
+.bd-light-clown {
+  border-color: hsl(3, 100%, 95%) !important;
+}
+.bd-minor-clown {
+  border-color: hsl(3, 100%, 85%) !important;
+}
+.bd-sat-clown {
+  border-color: hsl(3, 100%, 55%) !important;
+}
+.bd-dark-clown {
+  border-color: hsl(3, 100%, 45%) !important;
 }
 .bd-clown {
   border-color: hsl(3, 100%, 70%) !important;
@@ -28972,6 +29188,18 @@ hr.fat {
 .bd-after-clown::after {
   border-color: hsl(3, 100%, 70%) !important;
 }
+.bd-light-orange {
+  border-color: hsl(39, 100%, 90%) !important;
+}
+.bd-minor-orange {
+  border-color: hsl(39, 100%, 75%) !important;
+}
+.bd-sat-orange {
+  border-color: hsl(39, 100%, 35%) !important;
+}
+.bd-dark-orange {
+  border-color: hsl(39, 100%, 25%) !important;
+}
 .bd-orange {
   border-color: hsl(39, 100%, 50%) !important;
 }
@@ -28989,6 +29217,18 @@ hr.fat {
 }
 .bd-after-orange::after {
   border-color: hsl(39, 100%, 50%) !important;
+}
+.bd-light-amber {
+  border-color: hsl(45, 100%, 78%) !important;
+}
+.bd-minor-amber {
+  border-color: hsl(45, 100%, 68%) !important;
+}
+.bd-sat-amber {
+  border-color: hsl(45, 100%, 43%) !important;
+}
+.bd-dark-amber {
+  border-color: hsl(45, 100%, 33%) !important;
 }
 .bd-amber {
   border-color: hsl(45, 100%, 58%) !important;
@@ -29008,6 +29248,18 @@ hr.fat {
 .bd-after-amber::after {
   border-color: hsl(45, 100%, 58%) !important;
 }
+.bd-light-yellow {
+  border-color: hsl(52, 100%, 93%) !important;
+}
+.bd-minor-yellow {
+  border-color: hsl(52, 100%, 83%) !important;
+}
+.bd-sat-yellow {
+  border-color: hsl(52, 100%, 53%) !important;
+}
+.bd-dark-yellow {
+  border-color: hsl(52, 100%, 43%) !important;
+}
 .bd-yellow {
   border-color: hsl(52, 100%, 68%) !important;
 }
@@ -29025,6 +29277,18 @@ hr.fat {
 }
 .bd-after-yellow::after {
   border-color: hsl(52, 100%, 68%) !important;
+}
+.bd-light-brown {
+  border-color: hsl(25, 57%, 81%) !important;
+}
+.bd-minor-brown {
+  border-color: hsl(25, 57%, 66%) !important;
+}
+.bd-sat-brown {
+  border-color: hsl(25, 57%, 36%) !important;
+}
+.bd-dark-brown {
+  border-color: hsl(25, 57%, 26%) !important;
 }
 .bd-brown {
   border-color: hsl(25, 57%, 51%) !important;
@@ -29044,6 +29308,18 @@ hr.fat {
 .bd-after-brown::after {
   border-color: hsl(25, 57%, 51%) !important;
 }
+.bd-light-olive {
+  border-color: hsl(60, 100%, 72%) !important;
+}
+.bd-minor-olive {
+  border-color: hsl(60, 100%, 42%) !important;
+}
+.bd-sat-olive {
+  border-color: hsl(60, 100%, 17%) !important;
+}
+.bd-dark-olive {
+  border-color: hsl(60, 100%, 7%) !important;
+}
 .bd-olive {
   border-color: hsl(60, 100%, 32%) !important;
 }
@@ -29061,6 +29337,18 @@ hr.fat {
 }
 .bd-after-olive::after {
   border-color: hsl(60, 100%, 32%) !important;
+}
+.bd-light-steel {
+  border-color: hsl(209, 19%, 87%) !important;
+}
+.bd-minor-steel {
+  border-color: hsl(209, 19%, 77%) !important;
+}
+.bd-sat-steel {
+  border-color: hsl(209, 19%, 42%) !important;
+}
+.bd-dark-steel {
+  border-color: hsl(209, 19%, 32%) !important;
 }
 .bd-steel {
   border-color: hsl(209, 19%, 57%) !important;
@@ -29080,6 +29368,18 @@ hr.fat {
 .bd-after-steel::after {
   border-color: hsl(209, 19%, 57%) !important;
 }
+.bd-light-mauve {
+  border-color: hsl(277, 100%, 96%) !important;
+}
+.bd-minor-mauve {
+  border-color: hsl(277, 100%, 90%) !important;
+}
+.bd-sat-mauve {
+  border-color: hsl(277, 100%, 69%) !important;
+}
+.bd-dark-mauve {
+  border-color: hsl(277, 100%, 59%) !important;
+}
 .bd-mauve {
   border-color: hsl(277, 100%, 84%) !important;
 }
@@ -29097,6 +29397,18 @@ hr.fat {
 }
 .bd-after-mauve::after {
   border-color: hsl(277, 100%, 84%) !important;
+}
+.bd-light-taupe {
+  border-color: hsl(29, 19%, 80%) !important;
+}
+.bd-minor-taupe {
+  border-color: hsl(29, 19%, 67%) !important;
+}
+.bd-sat-taupe {
+  border-color: hsl(29, 19%, 35%) !important;
+}
+.bd-dark-taupe {
+  border-color: hsl(29, 19%, 25%) !important;
 }
 .bd-taupe {
   border-color: hsl(29, 19%, 50%) !important;
@@ -29116,6 +29428,18 @@ hr.fat {
 .bd-after-taupe::after {
   border-color: hsl(29, 19%, 50%) !important;
 }
+.bd-light-champagne {
+  border-color: hsl(37, 74%, 98%) !important;
+}
+.bd-minor-champagne {
+  border-color: hsl(37, 74%, 93%) !important;
+}
+.bd-sat-champagne {
+  border-color: hsl(37, 74%, 73%) !important;
+}
+.bd-dark-champagne {
+  border-color: hsl(37, 74%, 63%) !important;
+}
 .bd-champagne {
   border-color: hsl(37, 74%, 88%) !important;
 }
@@ -29133,6 +29457,18 @@ hr.fat {
 }
 .bd-after-champagne::after {
   border-color: hsl(37, 74%, 88%) !important;
+}
+.bd-light-khaki {
+  border-color: hsl(47, 47%, 94%) !important;
+}
+.bd-minor-khaki {
+  border-color: hsl(47, 47%, 84%) !important;
+}
+.bd-sat-khaki {
+  border-color: hsl(47, 47%, 54%) !important;
+}
+.bd-dark-khaki {
+  border-color: hsl(47, 47%, 44%) !important;
 }
 .bd-khaki {
   border-color: hsl(47, 47%, 69%) !important;
@@ -29152,6 +29488,18 @@ hr.fat {
 .bd-after-khaki::after {
   border-color: hsl(47, 47%, 69%) !important;
 }
+.bd-light-charcoal {
+  border-color: hsl(0, 0%, 90%) !important;
+}
+.bd-minor-charcoal {
+  border-color: hsl(0, 0%, 80%) !important;
+}
+.bd-sat-charcoal {
+  border-color: hsl(0, 0%, 45%) !important;
+}
+.bd-dark-charcoal {
+  border-color: hsl(0, 0%, 35%) !important;
+}
 .bd-charcoal {
   border-color: hsl(0, 0%, 60%) !important;
 }
@@ -29169,6 +29517,18 @@ hr.fat {
 }
 .bd-after-charcoal::after {
   border-color: hsl(0, 0%, 60%) !important;
+}
+.bd-light-bronze {
+  border-color: hsl(29, 75%, 87%) !important;
+}
+.bd-minor-bronze {
+  border-color: hsl(29, 75%, 72%) !important;
+}
+.bd-sat-bronze {
+  border-color: hsl(29, 75%, 42%) !important;
+}
+.bd-dark-bronze {
+  border-color: hsl(29, 75%, 32%) !important;
 }
 .bd-bronze {
   border-color: hsl(29, 75%, 57%) !important;
@@ -29188,6 +29548,18 @@ hr.fat {
 .bd-after-bronze::after {
   border-color: hsl(29, 75%, 57%) !important;
 }
+.bd-light-windstorm {
+  border-color: hsl(216, 53%, 93%) !important;
+}
+.bd-minor-windstorm {
+  border-color: hsl(216, 53%, 81%) !important;
+}
+.bd-sat-windstorm {
+  border-color: hsl(216, 53%, 51%) !important;
+}
+.bd-dark-windstorm {
+  border-color: hsl(216, 53%, 41%) !important;
+}
 .bd-windstorm {
   border-color: hsl(216, 53%, 66%) !important;
 }
@@ -29205,6 +29577,18 @@ hr.fat {
 }
 .bd-after-windstorm::after {
   border-color: hsl(216, 53%, 66%) !important;
+}
+.bd-light-nude {
+  border-color: hsl(29, 79%, 97%) !important;
+}
+.bd-minor-nude {
+  border-color: hsl(29, 79%, 92%) !important;
+}
+.bd-sat-nude {
+  border-color: hsl(29, 79%, 70%) !important;
+}
+.bd-dark-nude {
+  border-color: hsl(29, 79%, 60%) !important;
 }
 .bd-nude {
   border-color: hsl(29, 79%, 85%) !important;
@@ -29224,6 +29608,18 @@ hr.fat {
 .bd-after-nude::after {
   border-color: hsl(29, 79%, 85%) !important;
 }
+.bd-light-terracotta {
+  border-color: hsl(10, 76%, 85%) !important;
+}
+.bd-minor-terracotta {
+  border-color: hsl(10, 76%, 70%) !important;
+}
+.bd-sat-terracotta {
+  border-color: hsl(10, 76%, 40%) !important;
+}
+.bd-dark-terracotta {
+  border-color: hsl(10, 76%, 30%) !important;
+}
 .bd-terracotta {
   border-color: hsl(10, 76%, 55%) !important;
 }
@@ -29241,6 +29637,18 @@ hr.fat {
 }
 .bd-after-terracotta::after {
   border-color: hsl(10, 76%, 55%) !important;
+}
+.bd-light-coral {
+  border-color: hsl(16, 100%, 92%) !important;
+}
+.bd-minor-coral {
+  border-color: hsl(16, 100%, 82%) !important;
+}
+.bd-sat-coral {
+  border-color: hsl(16, 100%, 52%) !important;
+}
+.bd-dark-coral {
+  border-color: hsl(16, 100%, 42%) !important;
 }
 .bd-coral {
   border-color: hsl(16, 100%, 67%) !important;
@@ -29260,6 +29668,18 @@ hr.fat {
 .bd-after-coral::after {
   border-color: hsl(16, 100%, 67%) !important;
 }
+.bd-light-army {
+  border-color: hsl(69, 34%, 75%) !important;
+}
+.bd-minor-army {
+  border-color: hsl(69, 34%, 47%) !important;
+}
+.bd-sat-army {
+  border-color: hsl(69, 34%, 15%) !important;
+}
+.bd-dark-army {
+  border-color: hsl(69, 34%, 5%) !important;
+}
 .bd-army {
   border-color: hsl(69, 34%, 30%) !important;
 }
@@ -29278,6 +29698,18 @@ hr.fat {
 .bd-after-army::after {
   border-color: hsl(69, 34%, 30%) !important;
 }
+.bd-light-seashell {
+  border-color: hsl(25, 100%, 98%) !important;
+}
+.bd-minor-seashell {
+  border-color: hsl(25, 100%, 97%) !important;
+}
+.bd-sat-seashell {
+  border-color: hsl(25, 100%, 80%) !important;
+}
+.bd-dark-seashell {
+  border-color: hsl(25, 100%, 70%) !important;
+}
 .bd-seashell {
   border-color: hsl(25, 100%, 95%) !important;
 }
@@ -29295,6 +29727,18 @@ hr.fat {
 }
 .bd-after-seashell::after {
   border-color: hsl(25, 100%, 95%) !important;
+}
+.bd-light-sand {
+  border-color: hsl(45, 71%, 96%) !important;
+}
+.bd-minor-sand {
+  border-color: hsl(45, 71%, 88%) !important;
+}
+.bd-sat-sand {
+  border-color: hsl(45, 71%, 66%) !important;
+}
+.bd-dark-sand {
+  border-color: hsl(45, 71%, 56%) !important;
 }
 .bd-sand {
   border-color: hsl(45, 71%, 81%) !important;
@@ -62015,6 +62459,25 @@ aside::after {
 }
 .cutter.dot .content {
   border-style: dotted;
+}
+.cutter.dash-dot {
+  background-image:
+    repeating-linear-gradient(
+      to right,
+      var(--cutter-line-color) 0,
+      var(--cutter-line-color) 10px,
+      transparent 10px,
+      transparent 15px,
+      var(--cutter-line-color) 15px,
+      var(--cutter-line-color) calc(15px + var(--cutter-line-width)),
+      transparent calc(15px + var(--cutter-line-width)),
+      transparent 25px);
+  background-repeat: no-repeat;
+  background-size: 100% var(--cutter-line-width);
+  background-position: 0 center;
+}
+.cutter.dash-dot .content {
+  border-style: dot-dash;
 }
 @media (hover: hover) {
   .cutter.hoverable:hover .content {

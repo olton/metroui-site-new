@@ -1,0 +1,135 @@
+---
+import {Image} from "astro:assets"
+import Layout from '../layouts/Layout.astro';
+import SupportImage from "../assets/support.svg"
+import PatreonImage from "../assets/patreon.png"
+import ApprovalImage from "../assets/approval.svg"
+---
+<Layout>
+    <div class="container-fluid bg-pattern-grid-dot masked">
+        <div class="container">
+            <div class="hero bg-transparent d-flex flex-column flex-center pt-10 pb-10">
+                <div class="pos-relative gradient gradient-crimson-depth border border-radius-half p-4 gradient-border animated-border-red"
+                     style="width: 200px; height: 200px;">
+                    <Image src={SupportImage} alt="Support Image" style=" filter: drop-shadow(0 0 0.75rem #ff4e4e);"/>
+                </div>
+                <div class="display3 text-center">Support <span class="gradient-text gradient-radial-red">Metro UI</span></div>
+                <div class="text-leader text-center mt-4 mb-10">
+                    If you like Metro UI and want to support its development,<br/>you can do it:
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="cell-md-6">
+                <div class="display3">Order development</div>
+                <div class="text-leader2">
+                    You can order the author to develop your site on Metro UI, or to develop a component library similar to Metro UI, but according to your needs.
+                </div>
+                <div class="text-leader2 mt-4">
+                    Or offer your own version of project assistance.
+                </div>
+                <div class="mt-4">
+                    <a href="https://pimenov.com.ua" class="button alert pill-button">
+                        <span class="icon mif-phone"></span>
+                        <span class="caption">Connect to author</span>
+                    </a>
+                </div>
+            </div>
+            <div class="cell-md-6 d-flex flex-column flex-center">
+                <Image src={ApprovalImage} alt="Approval Image" style="width: 80%"/>
+            </div>
+        </div>
+    </div>
+    
+    <div class="cutter dash" style="--cutter-color: var(--border-color); --cutter-line-width: 1px">
+        <div class="content">
+            Donate with SEPA bank transfer
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <div class="text-center">
+            The Author accepts donations via SEPA bank transfer. Please send payments to:
+        </div>
+
+        <div class="row gap-10 mt-4">
+            <div class="cell-md-6">
+                <div class="box bg-transparent">
+                    <div class="box-title">USD</div>
+                    <div class="text-bold">Recipient:</div>
+                    <div>Serhii Pimenov</div>
+                    <hr class="mt-4 mb-4"/>
+                    <div class="mt-2 text-bold">IBAN:</div>
+                    <div>UA183052990000026204645062053</div>
+                    <hr class="mt-4 mb-4"/>
+                    <div class="mt-2 text-bold">BIC:</div>
+                    <div>PBANUA2X</div>
+                    <hr class="mt-4 mb-4"/>
+                    <div class="mt-2 text-bold">Bank:</div>
+                    <div>JSC CB PRIVATBANK</div>
+                </div>
+            </div>
+            <div class="cell-md-6">
+                <div class="box bg-transparent">
+                    <div class="box-title">EUR</div>
+                    <div class="text-bold">Recipient:</div>
+                    <div>Serhii Pimenov</div>
+                    <hr class="mt-4 mb-4"/>
+                    <div class="mt-2 text-bold">IBAN:</div>
+                    <div>UA523052990000026207744445114</div>
+                    <hr class="mt-4 mb-4"/>
+                    <div class="mt-2 text-bold">BIC:</div>
+                    <div>PBANUA2X</div>
+                    <hr class="mt-4 mb-4"/>
+                    <div class="mt-2 text-bold">Bank:</div>
+                    <div>JSC CB PRIVATBANK</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cutter dash mt-10" style="--cutter-color: var(--border-color); --cutter-line-width: 1px">
+        <div class="content">
+            Other ways to support Metro UI
+        </div>
+    </div>
+
+    <div class="container mt-10 mb-10">
+        <div class="row">
+            <div class="cell-md-4">
+                <div class="box">
+                    <div class="box-title text-center">Buy Premium Support</div>
+                    <div class="mt-2 d-flex flex-center mt-4">
+                        <a href="https://korzh.com/metroui#licensing" class="button pill-button info">
+                            <span class="mif-link"></span> Premium Support
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="cell-md-4">
+                <div class="box">
+                    <div class="box-title text-center">Donate with PayPal</div>
+                    <div class="mt-2 d-flex flex-center mt-4">
+                        <a href="https://www.paypal.com/donate/?hosted_button_id=4AM4GN5YT6EEA" class="button pill-button warning">
+                            <span class="mif-cc-paypal"></span> PayPal
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="cell-md-4">
+                <div class="box">
+                    <div class="box-title text-center">Donate with Patreon</div>
+                    <div class="mt-2 d-flex flex-center mt-4">
+                        <a href="https://patreon.com/metroui" class="button pill-button alert">
+                            <Image src={PatreonImage} style="height: 26px; width: 26px" alt="Patreon Image"/> Patreon
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</Layout>

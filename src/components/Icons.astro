@@ -1,0 +1,23 @@
+---
+import {Image} from "astro:assets";
+import IconsImage from "../assets/icons.png"
+---
+<div class="container mt-20">
+    <div class="row">
+        <div class="cell-md-7 pl-10-md">
+            <div class="display4 mt-0">Icons</div>
+            <div class="text-leader2 mt-2">
+                Metro Icons is an open source SVG icon library (packed in font file) featuring over 900+ glyphs. 
+                <p class="mt-4">Use them as icon font options give you vector scaling and easy customization via CSS. 
+                <p>You can include icons in your project either using a CDN or using your favorite bundler.
+            </div>
+            <div class="text-leader2 mt-4">
+                All variables icons you can see on <a href="https://panda.metroui.org.ua/mif/core-pack">demo page</a>.
+            </div>
+        </div>
+        <div class="cell-md-1"></div>
+        <div class="cell-md-4 d-flex flex-column flex-center">
+            <Image src={IconsImage} alt="Icons Image" style="filter: drop-shadow(0 0 0.75rem #ff4e4e);"/>
+        </div>
+    </div>
+</div>

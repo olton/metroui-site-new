@@ -5,12 +5,14 @@ import CdnImage from "../assets/cdn2.svg";
 import NpmImage from "../assets/npm.svg";
 import DownloadImage from "../assets/download.svg";
 import NugetImage from "../assets/nuget.svg";
+import NugetLogoImage from "../assets/nuget-logo.svg";
 import EsbuildImage from "../assets/esbuild.svg";
 import ParcelImage from "../assets/parcel.svg";
 import RollupImage from "../assets/rollup.svg";
 import ViteImage from "../assets/vite.svg";
 import WebpackImage from "../assets/webpack.svg";
 import Cdn2Image from "../assets/cdn2.svg";
+import VscImage from "../assets/vsc.svg";
 ---
 <div class="container mt-6 mb-6">
     <div class="row">
@@ -76,6 +78,28 @@ import Cdn2Image from "../assets/cdn2.svg";
                         <span class="icon mif-arrow-right"></span>
                     </a>
                 </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="mt-20 bg-pattern-grid p-10-md">
+        <div class="row">
+            <div class="cell-md-6">
+                <h1>Developing on Visual Studio?</h1>
+                <div class="text-leader2">
+                    <p>Use a special Metro UI <a href="https://www.nuget.org/packages/metroui"><span class="text-weight-9">package</span></a> for Nuget.</p>
+                    <p>Nuget is a package manager for .NET. It allows developers to create and use .NET useful libraries, as well as provide common access to them.</p>
+                    <p>We created package for each Metro UI version.</p>
+                </div>
+                <div class="mt-4">
+                    <a href="https://www.nuget.org/packages/metroui" class="button pill-button bg-default">
+                        <span class="icon mif-download"></span>
+                        <span class="caption">Get Metro UI</span>
+                    </a>
+                </div>
+            </div>
+            <div class="cell-md-6 d-flex flex-center">
+                <Image src={VscImage} alt="CDN Image" style="height: 300px; width: 300px"/>
             </div>
         </div>
     </div>

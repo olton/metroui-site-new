@@ -1,6 +1,7 @@
 ---
+import { Code } from 'astro:components'
 import {Image} from "astro:assets";
-import CdnImage from "../assets/cdn.svg";
+import CdnImage from "../assets/cdn2.svg";
 import NpmImage from "../assets/npm.svg";
 import DownloadImage from "../assets/download.svg";
 import NugetImage from "../assets/nuget.svg";
@@ -9,9 +10,16 @@ import ParcelImage from "../assets/parcel.svg";
 import RollupImage from "../assets/rollup.svg";
 import ViteImage from "../assets/vite.svg";
 import WebpackImage from "../assets/webpack.svg";
+import Cdn2Image from "../assets/cdn2.svg";
 ---
 <div class="container mt-6 mb-6">
     <div class="row">
+        <div class="cell-md-6 pr-10-md">
+            <div class="display4 mt-0">Any Started</div>
+            <div class="text-leader2 mt-2">
+                Jump right into building with Metro UI — use the CDN, install it via package manager, or download the source code.
+            </div>
+        </div>
         <div class="cell-md-6">
             <div class="row">
                 <div class="cell-fs-6 cell-ld-4">
@@ -48,13 +56,26 @@ import WebpackImage from "../assets/webpack.svg";
                 </div>
             </div>
         </div>
-        <div class="cell-md-6 pl-10-md">
-            <div class="display4 mt-0">Any Started</div>
-            <div class="text-leader2 mt-2">
-                Jump right into building with Metro UI — use the CDN, install it via package manager, or download the source code.
+    </div>
+    
+    <div class="mt-20">
+        <div class="row">
+            <div class="cell-md-6 d-flex flex-center">
+                <Image src={Cdn2Image} alt="CDN Image" style="filter: drop-shadow(0 0 0.75rem #ff4e4e); height: 300px; width: 300px"/>
             </div>
-            <div class="mt-6">
-                <a href="https://v5.metroui.org.ua/getting-started/download/" class="button pill-button alert">Read More <span class="mif-arrow-right icon"></span></a>
+            <div class="cell-md-6">
+                <h1>Want to get started quickly?</h1>
+                <div class="text-leader2">
+                    <p>Use <span class="fg-red text-weight-9">pre-compiled</span> Metro UI with CDN. It is enough to add styles and javaScript part by several teams to your page.
+                        CDN for Metro UI is provided by <a href="https://keycdn.com"><span class="text-weight-9">KeyCDN</span></a>.
+                    <p>KeyCDN is a high performance content delivery network that has been built for the future. It only takes a few minutes to start delivering content to your users at a blazing fast speed.
+                </div>
+                <div class="mt-4">
+                    <a href="https://v5.metroui.org.ua/getting-started/download/" class="button pill-button bg-default">
+                        <span class="caption">Read More</span>
+                        <span class="icon mif-arrow-right"></span>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -62,9 +83,13 @@ import WebpackImage from "../assets/webpack.svg";
     <div class="mt-20">
         <h1>Use the package manager?</h1>
         <div class="text-leader2">
-            Create your own awesome set of Metro UI components with your favorite bundler:
+            Install Metro UI with a command:
         </div>
-        <div class="row mt-10">
+        <div class="mt-4 mb-4" data-role="package-manager" data-package="@olton/metroui"></div>
+        <div class="text-leader2">
+            ...And then create your own awesome set of Metro UI components with your favorite bundler:
+        </div>
+        <div class="row mt-4">
             <div class="cell-fs-6 cell-ld-one-fifth">
                 <div class="lib-part-box">
                     <Image src={EsbuildImage} alt="esbuild Image" style="filter: drop-shadow(0 0 0.75rem #ff4e4e);"/>
@@ -105,6 +130,15 @@ import WebpackImage from "../assets/webpack.svg";
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="mt-4">
+            <div class="mb-4">
+                To make it easier to understand how to use Metro UI with any bundlers, I created a special demo repository on GitHub, which provides examples of using different bundlers to build your own Metro UI assembly.
+            </div>
+            <a href="https://github.com/olton/metro4-bundlers" class="button pill-button bg-default">
+                <span class="icon mif-github"></span>
+                <span class="caption">View Demo Repository</span>
+            </a>
         </div>
     </div>
 </div>

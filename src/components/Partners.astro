@@ -4,20 +4,26 @@ import KeyImage from "../assets/keycdn.svg"
 import JetbrainsImage from "../assets/jetbrains.svg"
 import MirohostImage from "../assets/mirohost.svg"
 ---
-<div class="container mt-20">
+<div class="container mt-6 mb-6">
     <h2 class="text-center">Technical Partners</h2>
-    <ul class="inline-list d-flex flex-center gap-10 mb-10">
-        <li><a href="https://keycdn.com">
-            <Image src={KeyImage} width="200" height="200" alt="KeyCDN.com" style="filter: drop-shadow(0 0 0.75rem #ff4e4e);"/>
-            <div class="text-center fg-white mt-4">CDN provider</div>
-        </a></li>
-        <li class="ml-10 mr-10"><a href="https://jetbrains.com">
-            <Image src={JetbrainsImage} width="200" height="200" alt="JetBrains.com" style="filter: drop-shadow(0 0 0.75rem #ff4e4e);"/>
-            <div class="text-center fg-white mt-4">IDE distributor</div>
-        </a></li>
-        <li><a href="https://mirohost.net">
-            <Image src={MirohostImage} width="200" height="200" alt="Mirohost.net" style="filter: drop-shadow(0 0 0.75rem #ff4e4e);"/>
-            <div class="text-center fg-white mt-4">Hosting Provider</div>
-        </a></li>
-    </ul>
+    <div class="row">
+        <div class="cell-sm-4 d-flex flex-center">
+            <a href="https://keycdn.com">
+                <Image src={KeyImage} width="200" height="200" alt="KeyCDN.com" style="filter: drop-shadow(0 0 0.75rem #ff4e4e);"/>
+                <div class="text-center fg-white mt-4">Awesome CDN</div>
+            </a>
+        </div>
+        <div class="cell-sm-4 d-flex flex-center">
+            <a href="https://jetbrains.com">
+                <Image src={JetbrainsImage} width="200" height="200" alt="JetBrains.com" style="filter: drop-shadow(0 0 0.75rem #ff4e4e);"/>
+                <div class="text-center fg-white mt-4">Awesome IDE</div>
+            </a>
+        </div>
+        <div class="cell-sm-4 d-flex flex-center">
+            <a href="https://mirohost.net">
+                <Image src={MirohostImage} width="200" height="200" alt="Mirohost.net" style="filter: drop-shadow(0 0 0.75rem #ff4e4e);"/>
+                <div class="text-center fg-white mt-4">Awesome Hosting</div>
+            </a>
+        </div>
+    </div>
 </div>

@@ -1,0 +1,49 @@
+---
+import {Image} from 'astro:assets';
+import HtmlFirstImage from '../assets/html-first.svg';
+import CpuImage from '../assets/cpu.svg';
+import DarkLightImage from "../assets/dark-light.svg";
+import MobileFirstImage from "../assets/mobile-first.svg";
+---
+<div class="container mt-6">
+    <div class="display4 mt-0">Components</div>
+    <div class="text-leader2 mt-2">
+        Metro UI includes 150+ ready-to-use awesome web components.
+        The components are designed in such a way that even without knowing JavaScript, you can create interactive, high-performance web applications that will impress with their functionality.
+          
+    </div>
+    <div class="row mt-4">
+        <div class="cell-fs-6 cell-ld-4 cell-lg-3">
+            <div class="lib-part-box">
+                <Image src={HtmlFirstImage} alt="Html-first Image" style="filter: drop-shadow(0 0 0.75rem #ff4e4e);"/>
+                <div class="lib-part-name">
+                    HTML-First
+                </div>
+            </div>
+        </div>
+        <div class="cell-fs-6 cell-ld-4 cell-lg-3">
+            <div class="lib-part-box">
+                <Image src={CpuImage} alt="Cpu Image" style="filter: drop-shadow(0 0 0.75rem #ff4e4e);"/>
+                <div class="lib-part-name">
+                    Optimized for Performance
+                </div>
+            </div>
+        </div>
+        <div class="cell-fs-6 cell-ld-4 cell-lg-3">
+            <div class="lib-part-box">
+                <Image src={DarkLightImage} alt="Dark Light Image" style="filter: drop-shadow(0 0 0.75rem #ff4e4e);"/>
+                <div class="lib-part-name">
+                    Dark &amp; Light Themes
+                </div>
+            </div>
+        </div>
+        <div class="cell-fs-6 cell-ld-4 cell-lg-3">
+            <div class="lib-part-box">
+                <Image src={MobileFirstImage} alt="Mobile First Image" style="filter: drop-shadow(0 0 0.75rem #ff4e4e);"/>
+                <div class="lib-part-name">
+                    Mobile First &amp; Responsive
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

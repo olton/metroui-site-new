@@ -1,5 +1,5 @@
 ---
-const {style = "dash"} = Astro.props;
-const className = `cutter ${style} mt-20`;
+const {viewStyle = "dash"} = Astro.props;
+const className = `cutter ${viewStyle} mt-6`;
 ---
 <div class={className} style="--cutter-line-color: var(--border-color); --cutter-line-width: 1px"></div>

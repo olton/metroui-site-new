@@ -47,3 +47,8 @@ body {
     padding: 10px;
     color: var(--color-gray-white);
 }
+
+.scroll-target {
+    scroll-snap-align: start;
+    scroll-margin-top: 80px;
+}

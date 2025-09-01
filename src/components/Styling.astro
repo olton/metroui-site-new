@@ -2,7 +2,7 @@
 import {Image} from "astro:assets"
 import StyleImage from "../assets/dark-light.svg"
 ---
-<div class="container mt-6 mb-6">
+<div class="container mt-6 mb-6 scroll-target" id="css">
     <div class="row">
         <div class="cell-md-4 d-flex flex-column flex-center">
             <Image src={StyleImage} alt="Style Image" style="filter: drop-shadow(0 0 0.75rem #ff4e4e);"/>
@@ -11,11 +11,12 @@ import StyleImage from "../assets/dark-light.svg"
         <div class="cell-md-7 pl-10-md">
             <div class="display4 mt-0">CSS Style</div>
             <div class="text-leader2 mt-2">
-                Metro UI provide dozens of variables for colors, font styles, and more at a <span class="text-weight-9 fg-red">:root</span> level for use anywhere. Variables are divided into global and component variables.
-            </div>
-            <div class="text-leader2 mt-2">
-                All components support dark and light mode. In Metro UI light mode is default. 
-                For dark mode you must (re)define variables inside a <span class="text-weight-9 fg-red no-wrap">.dark-side</span> class.            
+                <p>Each Metro UI component is created using modern CSS standards, which provides adaptability and flexibility in design.
+                <p>We are widely used by CSS variables to determine the visual style of the components.
+                <p>Each component has its own CSS variables that characterize its appearance.
+                <p>Metro UI provide dozens of variables for colors, font styles, and more at a <span class="text-weight-9 fg-red">:root</span> level for use anywhere. Variables are divided into global and component variables.
+                <p>All components support dark and light mode. In Metro UI light mode is default.
+                For dark mode you must (re)define variables inside a <span class="text-weight-9 fg-red no-wrap">.dark-side</span> class.
             </div>
             <div class="mt-4">
                 <a href="https://v5.metroui.org.ua/getting-started/theming-components/" class="button pill-button bg-default">
